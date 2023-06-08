@@ -1,16 +1,16 @@
 import java.util.Scanner;
-class largest{
+class smallest{
 public static void main(String args[])
 {
 Scanner sc=new Scanner(System.in);
 int i=sc.nextInt();
 int j=sc.nextInt();
 int k=sc.nextInt();
-if((i>j)&&(i>k)){
-System.out.println(i);}
-else if((j>i)&&(j>k)){
-System.out.println(j);}
+if((i<j)&&(i<k)){
+System.out.println(i+" is smallest");}
+else if((j<i)&&(j<k)){
+System.out.println(j+" is smallest");}
 else
-System.out.println(k);
+System.out.println(k+" is smallest");
 }
 }
